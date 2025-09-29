@@ -1,7 +1,7 @@
 /*
-Tanggal     : 
-Deskripsi   : 
-Waktu       : 
+Tanggal     : 26 - 09 - 2025
+Deskripsi   : Mencetak faktorisasi dari bilangan yang diberikan
+Waktu       : 9 menit 19 detik
 */ 
 
 #include <bits/stdc++.h>
