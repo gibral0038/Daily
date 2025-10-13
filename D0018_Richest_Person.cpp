@@ -19,7 +19,9 @@ int cek(int kaya[], int n, int& orkay){
 }
 
 void test(int arr[][100], int n, int m, int kaya[]){
-    for (int a = 0; a < n; a++) kaya[a] = 0;
+    for (int a = 0; a < n; a++) {
+        kaya[a] = 0;
+    }
     for (int a = 0; a < n; a++){
         for (int b = 0; b < m; b++){
             kaya[a] += arr[a][b];
