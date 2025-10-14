@@ -1,7 +1,7 @@
 /*
 Tanggal     : 14 - 10 - 2025
 Deskripsi   : Mencari jumlah digit yang genap
-Waktu       : 7 menit 37 detik
+Waktu       : 7 menit 37 detik 
 */ 
 
 #include <bits/stdc++.h>
