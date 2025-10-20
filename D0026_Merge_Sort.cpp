@@ -1,5 +1,5 @@
 /*
-Tanggal     : 18 - 10 - 2025
+Tanggal     : 19 - 10 - 2025
 Deskripsi   : Merge sort
 Waktu       : 1 jam
 */ 
