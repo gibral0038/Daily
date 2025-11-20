@@ -1,0 +1,1 @@
+Pada pencarian angka yang dapat habis dibagi terdapat cara yang lebih cepat yaitu dengan menggunakan akar dari dari angka tersebut dimana jika sebuah angka akan memiliki faktor yang berpasangan besar dan kecil atau angka itu sendiri.
