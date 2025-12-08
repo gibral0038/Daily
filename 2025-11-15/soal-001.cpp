@@ -10,10 +10,7 @@ vi adj[100001];
 void dfs(int node);
 
 int main(){
-    
-
-    int node, hubungan, hub = 0;
-    int node1, node2;
+    int node, node1, node2, hubungan, hub = 0;
     cin >> node >> hubungan;
     for (int i = 0; i < hubungan; i++){
         cin >> node1 >> node2;

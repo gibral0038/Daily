@@ -26,8 +26,7 @@ void out(ll arr[], ll n, ll max, map<ll, ll>& show){
             show[arr[a] + arr[a + 1]]++;
             temp = arr[a] + arr[a + 1];
         }
-        
-        
+        if(show[arr[a] + arr[a + 1]] > mn) mn = show[arr[a] + arr[a + 1]];
     }
     cout << mn;
 }
