@@ -8,14 +8,13 @@ Waktu       : 2 jam
 #define ll long long
 using namespace std;
 
-void input (ll arr[], ll n, ll& max){
+void input (ll arr[], ll n){
     for (ll a = 0; a < n; a++){
         cin >> arr[a];
-        if (arr[a] > max) max = arr[a];
     }
 }
 
-void out(ll arr[], ll n, ll max, map<ll, ll>& show){
+void out(ll arr[], ll n, map<ll, ll>& show){
     ll temp = -1, mn = 0;
     for (ll a = 0; a < n - 1; a++){
         if (arr[a] + arr[a + 1] == temp) {
@@ -32,12 +31,12 @@ void out(ll arr[], ll n, ll max, map<ll, ll>& show){
 }
 
 int main(){ 
-    ll n, max = 0;
+    ll n;
     cin >> n;
     ll arr[n];
-    input(arr, n, max);
+    input(arr, n);
     map<ll, ll> show;
-    out(arr, n, max, show);
+    out(arr, n, show);
 
 
     return 0;
